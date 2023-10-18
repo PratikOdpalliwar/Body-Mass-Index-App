@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <div clasName="container">
+      <div className="container">
         <h2 className='center'>
           BMI Calculator</h2>
 
@@ -50,12 +50,12 @@ function App() {
           <div>
             <label>
               Height (in m)</label>
-            <input value={height} onChange={(e) => setHeight(e.target.value)} placeholder="Enter Height"/>
+            <input value={height} onChange={(e) => setHeight(e.target.value)} placeholder="Enter Height" />
           </div>
 
           <div>
             <button className='btn1' type='submit' onClick={calSum}>Calculate</button>
-            <button classNmae="btn2" type="submit" onClick={Reload}>Reload</button>
+            <button className="btn2" type="submit" onClick={Reload}>Reload</button>
           </div>
         </form>
 
